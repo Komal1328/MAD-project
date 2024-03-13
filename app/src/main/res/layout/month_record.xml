@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income"
+            android:textSize="25dp"
+            android:id="@+id/t1"
+            android:textColor="@android:color/holo_green_dark"/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/t1"
+            android:onClick="onProfileIdClicked"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            tools:ignore="Suspicious0dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Expense"
+            android:textSize="25dp"
+            android:id="@+id/t2"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <TextView
+            android:id="@+id/ftot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:layout_toRightOf="@+id/t2"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other Expense"
+            android:textSize="25dp"
+            android:id="@+id/t3"
+            android:textColor="@android:color/holo_red_light"/>
+
+        <TextView
+            android:id="@+id/otot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:layout_toRightOf="@+id/t3"
+            android:layout_marginLeft="50dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Expense"
+            android:textSize="25dp"
+            android:id="@+id/t4"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <TextView
+            android:id="@+id/etot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/t4"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Savings"
+            android:textSize="25dp"
+            android:id="@+id/t5"
+            android:textColor="@android:color/holo_green_dark"/>
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/t5"
+            android:onClick="onProfileIdClicked"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            tools:ignore="Suspicious0dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

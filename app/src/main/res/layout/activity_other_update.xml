@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/one"
+    tools:context=".other_update">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Update Other Expense"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/blue_200"
+        android:textSize="36dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="24dp"
+        android:background="@drawable/custom_edit">
+
+
+        <EditText
+            android:id="@+id/ouid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_edit"
+            android:drawablePadding="8dp"
+            android:hint="Id"
+            android:drawableLeft="@drawable/id"
+            android:padding="8dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/outype"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/other"
+            android:background="@drawable/custom_edit"
+            android:drawablePadding="8dp"
+            android:hint="Expense Type"
+            android:padding="8dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/ouamount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edit"
+            android:drawablePadding="8dp"
+            android:hint="Amount"
+            android:drawableLeft="@drawable/money"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/oudate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/date"
+            android:background="@drawable/custom_edit"
+            android:drawablePadding="8dp"
+            android:hint="dd/mm/yyyy"
+            android:padding="8dp"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Update"
+            android:id="@+id/oupdate"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/blue_200"
+            app:cornerRadius = "20dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

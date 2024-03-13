@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "826958629903",
+    "project_id": "studentbudgetingsystem",
+    "storage_bucket": "studentbudgetingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826958629903:android:4e9f4b1c79d0888aae277a",
+        "android_client_info": {
+          "package_name": "com.example.studentbudgetigapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwUDXxgJpzbqM2FtoV8FOt6UqZJJRIYiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

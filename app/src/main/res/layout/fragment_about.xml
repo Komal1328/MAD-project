@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about"
+    tools:context=".about">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:text="About App"
+        android:textAlignment="center"
+        android:textColor="@color/blue_200"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="495dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Student  Budgeting System is an interesting concept as it helps to organise budget and save money.Insted of maintaining and calculating Expenses on paper  this website will help to store details of expenses.One can see where they spent money and it helps to cut down unnecessary expenses."
+        android:textAlignment="center"
+        android:textColor="@color/blue_500"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</FrameLayout>
